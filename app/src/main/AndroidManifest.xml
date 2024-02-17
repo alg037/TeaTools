@@ -13,6 +13,21 @@
         android:theme="@style/Theme.TeaTools"
         tools:targetApi="31">
         <activity
+            android:name=".SystemSettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeaInquireActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeaProcessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WorkerDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeaDataActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

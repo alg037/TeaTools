@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SystemSettingActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="系统设置"
+        android:textSize="36dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="租户信息"
+        android:textSize="24dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/system_setting_tenantid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XXXXXX"
+        android:textSize="24dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/system_setting_btn_sync"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    android:background="@drawable/button_backgroud_color"
+        android:layout_margin="12dp"
+        android:text="数据同步"
+        />
+    <Button
+        android:id="@+id/system_setting_btn_license"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_backgroud_color"
+        android:layout_margin="12dp"
+        android:text="软件注册" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="24dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/system_setting_btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:layout_marginBottom="10dp"
+        />
+
+
+</LinearLayout>
