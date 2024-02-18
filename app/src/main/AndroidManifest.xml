@@ -13,6 +13,9 @@
         android:theme="@style/Theme.TeaTools"
         tools:targetApi="31">
         <activity
+            android:name=".TeaDataModifyActivity"
+            android:exported="false" />
+        <activity
             android:name=".SystemSettingActivity"
             android:exported="false" />
         <activity

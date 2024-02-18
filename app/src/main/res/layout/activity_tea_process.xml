@@ -28,6 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="扫描工人条码"
+            android:inputType="number"
             android:maxLines="1"/>
 
     </LinearLayout>
